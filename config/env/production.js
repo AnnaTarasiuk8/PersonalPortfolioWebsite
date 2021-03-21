@@ -252,7 +252,6 @@ module.exports = {
     ***************************************************************************/
     onlyAllowOrigins: [
     'https://annatarasiuk.com',
-    'https://annatarasiuk.com',
     ],
 
 
