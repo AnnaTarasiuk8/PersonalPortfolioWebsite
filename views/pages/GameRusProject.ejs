@@ -1,17 +1,171 @@
-<div>
-    <h1>new page</h1>
-    <p>
-Here I need to fill out all the details 
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
 
+/* Add a gray background color with some padding */
+body {
+  font-family: Arial;
+  padding: 20px;
+  background-image:url("counters-bg.jpg");
+}
 
-Scope
-Nulman37 edited this page on Feb 17 · 1 revision
-The Game Club R US online application is an online membership tool that empower individuals with the tools needed to capture and track all past and current games within this. central tool. The tool has a vast data source providing by IGDB.COM providing rich information that gamers can enjoy such as extensive list of games, game platforms, past reviews, ratings, game artwork, character background stories, game cover, and much, much more.
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  font-size: 40px;
+  text-align: center;
+  background: #0078ff;
+}
 
-Once enrolled, member will be able to build their own custom list of games based on their search preference. Once associated to their profile, members will be able to rate the games, review the rich content provided and also provide and exchange comments with other members about the games you are interested in.
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
 
-As part of the roadmap, we plan on expanding sites to include streaming videos of game plays and the ability for members to upload custom covers and logos.
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+}
 
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
 
-    </p>
+/* Add a card effect for articles */
+.card {
+   background-color: white;
+   padding: 20px;
+   margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #0078ff;
+  margin-top: 20px;
+  font-size:small;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h2>Games Club R Us </h2>
 </div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>The idea...</h2>
+      <h5> March 2, 2021</h5>
+      <div class="fakeimg" style="height:200px;">Image</div>
+      
+      <p>A solution for gamers young and old, Game Club R Us is a one stop shop online membership application catering to those hardcore gamers who want capture and track all their games in a central online tool.  With it ease of use interface, broad database of past and current games, and built-in social features, this online application will help in organizing gamers’ life and bring back memories of past games that have come and gone. 
+        The Game Club R US online application is an online membership tool that empowers individuals with the tools needed to capture and track all past and current games within this central tool.   The tool has a vast data source providing by IGDB.COM providing rich information that gamers can enjoy such as extensive list of games, game platforms, past reviews, ratings, game artwork, character background stories, game cover, and much, much more.  
+        Once enrolled, member will be able to build their own custom list of games based on their search preference.  Once associated to their profile, members will be able to rate the games, review the rich content provided and provide / exchange comments with other members about the games you are interested in.  
+    
+    </p>
+    </div>
+    <div class="card">
+      <h2>Description</h2>
+      <h5>March 15, 2021</h5>
+      <div class="fakeimg" style="height:200px;">Image</div>
+      <!-- <p>Some text..</p> -->
+      <p>This application will offer a place for gamers to come together and talk about their love for video games both new and old. The application will be working with a database that holds all our known titles from all the different platforms that are available out there. Our members will be creating a list of titles that they have played or would like to play in the future. Once they have had the chance to play the games, they will be able to leave a rating and review for whatever games they would like. The review system will be an important piece to this application because it can offer our members another opinion on the games. Members will need to have a minimum amount of playing time on each title to gain the ability to leave a review/rating about it. Future iterations of this application can offer our members a discussion board format to just talk about each game without having to review or rate them first. Features: Member system:
+
+        <ul> 
+            <li>Anyone can visit our site and browse the games and their reviews. </li>
+            <li> Members will need to sign up and register an e-mail/username/password to get started.</li>
+            <li>After becoming a member our users will be able to start building their lists of games that they have played. </li>
+            <li> We will also offer them the ability to make a separate list of titles that they would like to play in the future. </li>
+            <li>  Members will be granted access to view the games that have been rated and reviewed that are stored in the database.</li>
+            <li>Members will need a minimum amount of time played on games from their list to give a “thoughtful” review. </li>
+            <li> Minimum amount of time is required to avoid games being “review bombed.”</li>
+          
+        </ul></p>
+      <p></p>
+    </div>
+  </div>
+
+  <!-- <div class="card">
+    <h2>Project Management </h2>
+    <h5>March 18, 2021</h5>
+    <div class="fakeimg" style="height:200px;">Image</div>
+    <!-- <p>Some text..</p> -->
+    <!-- <p> In order to assure efficient weekly sprints the Team followed below steps:
+
+      <ul> 
+          <li>Weekly meetings. Round tables </li>
+          <li> Task assigment</li>
+          <li>After becoming a member our users will be able to start building their lists of games that they have played. </li>
+          <li> We will also offer them the ability to make a separate list of titles that they would like to play in the future. </li>
+          <li>  Members will be granted access to view the games that have been rated and reviewed that are stored in the database.</li>
+          <li>Members will need a minimum amount of time played on games from their list to give a “thoughtful” review. </li>
+          <li> Minimum amount of time is required to avoid games being “review bombed.”</li>
+        
+      </ul></p>
+    <p></p>
+  </div>
+</div> -->
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>The Team: Mercury Montego</h2>
+      <div class="fakeimg" style="height:100px;">Image</div>
+      <p> 
+        <ul>
+            <li>Anna Tarasiuk:Project Lead, UI, documentation</li>
+            <li>Travis Simmers:Communications, Databases</li>
+            <li>Brandon Thompson:Front-end, Scribe</li>
+            <li>Andrew Lawson:Merge Management, Back-end</li>
+            <li> Devon Rice:Front-end</li>
+            <li>Sahara Maradiaga: QA testing </li>
+          </ul>   
+    </p>
+    </div>
+    <div class="card">
+      <h3>UI/UX</h3>
+      <div class="fakeimg">Image</div><br>
+      <div class="fakeimg">Image</div><br>
+      <div class="fakeimg">Image</div>
+    </div>
+    <div class="card">
+      <h3>GitHub Repo</h3>
+      <p>  <a href="https://github.com/DrewBaby/MercuryMontego">Games Club R Us</a> </p>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <h2>Created by Andrew Lawson, Anna Tarasiuk, Sahara Maradiaga Travis Simmers, Devon Rice, Brandon Thompson  </h2>
+</div>
+
+</body>
+</html>
