@@ -20,8 +20,11 @@ module.exports.routes = {
   ***************************************************************************/
 
   '/': { view: 'pages/homepage' },
-  '/Webresources' : {view:'pages/Webresources'}, 
-
+  '/Webresources' : {view:'pages/Webresources'},
+  '/GameRusProject' : {view:'pages/GameRusProject'},
+  '/firstBlog' : {view:'pages/blog1'},
+  '/secondBlog' : {view:'pages/blog2'},
+  '/thirdBlog' : {view:'pages/blog3'},
 
   /***************************************************************************
   *                                                                          *
