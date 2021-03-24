@@ -30,9 +30,9 @@ let onRequest=(request,response) => {
     {
         send404Error();
     }
-    Console.log('User made a Request');
-    Console.log(request.url);
-    Console.log(request.method);
+    console.log('User made a Request');
+    console.log(request.url);
+    console.log(request.method);
 }
 
 http.createServer(onRequest).listen(3000,'127.0.0.1');
